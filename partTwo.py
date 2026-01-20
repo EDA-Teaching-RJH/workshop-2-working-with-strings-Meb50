@@ -1,9 +1,13 @@
 import math  
 
 def main():
-#TO DO  
-
+    A = int(input("Enter the first term: "))#TO DO
+    B = int(input("Enter the second term: "))
+    
+    
+    pythag(A,B)
 def pythag(A,B):
-#TO DO  
-
+    added = A**2 + B**2
+    output = math.sqrt(added)
+    print(output)
 main()
